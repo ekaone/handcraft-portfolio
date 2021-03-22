@@ -22,7 +22,7 @@ interface ProjectProps {
   img: string;
   repo: string;
   demo: string;
-  tags: [];
+  tags: { id: number; name: string; color: string }[];
 }
 
 const ProjectCard = ({ name, main, img, repo, demo, tags }: ProjectProps) => (

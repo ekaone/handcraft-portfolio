@@ -8,12 +8,12 @@ const SEO = {
   openGraph: {
     type: "website",
     locale: "en_IE",
-    url: "https://handcraft-portfolio.vercel.app/",
+    url: "https://handcraft-portfolio-eka.vercel.app/",
     title,
     description,
     images: [
       {
-        url: "https://handcraft-portfolio.vercel.app/static/banner.jpg",
+        url: "https://handcraft-portfolio-eka.vercel.app/static/banner.jpg",
         alt: title,
         width: 2240,
         height: 1260,
