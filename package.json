@@ -1,0 +1,46 @@
+{
+  "name": "handcraft-portfolio",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ekaone/handcraft-portfolio.git"
+  },
+  "keywords": [
+    "handcraft",
+    "handmade",
+    "eka",
+    "prasetia",
+    "dannyeka",
+    "ekaone"
+  ],
+  "author": "Eka Prasetia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ekaone/handcraft-portfolio/issues"
+  },
+  "homepage": "https://handcraft-portfolio-eka.vercel.app/",
+  "dependencies": {
+    "@chakra-ui/react": "^1.3.4",
+    "@emotion/react": "^11.1.5",
+    "@emotion/styled": "^11.1.5",
+    "framer-motion": "^3.10.0",
+    "next": "10.0.8",
+    "next-seo": "^4.22.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-icons": "^4.2.0",
+    "use-local-storage-state": "^9.0.2"
+  },
+  "devDependencies": {
+    "@svgr/webpack": "^5.5.0",
+    "@types/node": "^14.14.31",
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.1",
+    "typescript": "^4.2.3"
+  }
+}
