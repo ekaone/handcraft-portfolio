@@ -2,15 +2,7 @@ import React from "react";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import {
-  Box,
-  SimpleGrid,
-  Text,
-  Flex,
-  HStack,
-  Stack,
-  Badge,
-} from "@chakra-ui/react";
+import { Box, SimpleGrid, Text, HStack, Stack, Badge } from "@chakra-ui/react";
 import { FaGithub, FaLink } from "react-icons/fa";
 // components
 import Layout from "./layout";
@@ -44,22 +36,22 @@ const ProjectCard = ({ name, main, img, repo, demo, tags }: ProjectProps) => (
       <Text fontFamily="'DM Sans', cursive" fontSize="1.5rem">
         {main}
       </Text>
-      <HStack marginTop="30px" fontSize="25px" color="white">
+      <HStack marginTop="30px" fontSize="25px" color="white" spacing="20px">
         <Link href={repo}>
-          <a
-            target="_blank"
-            style={{ textDecoration: "none", color: "&hover:" }}
-          >
-            <FaGithub />
+          <a target="_blank" style={{ textDecoration: "none" }}>
+            <Box _hover={{ color: "orange" }}>
+              <FaGithub />
+            </Box>
           </a>
-        </Link>{" "}
+        </Link>
         <Link href={demo}>
           <a
             target="_blank"
             style={{ textDecoration: "none", color: "&hover:" }}
           >
-            {" "}
-            <FaLink />
+            <Box _hover={{ color: "orange" }}>
+              <FaLink />
+            </Box>
           </a>
         </Link>
       </HStack>

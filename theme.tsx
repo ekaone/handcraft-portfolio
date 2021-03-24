@@ -22,11 +22,10 @@ const styles = {
       scrollBehavior: "smooth",
     },
     "html, body": {
-      backgroundColor: "#1c1732",
-      backgroundImage:
-        "linear-gradient(44deg, #1c1732 30%, #4d344f 63%, #402959 71%, #1c1732 90%)",
+      //backgroundColor: "#1c1732",
+      // backgroundImage: "linear-gradient(44deg, #1c1732 30%, #4d344f 63%, #402959 71%, #1c1732 90%)",
       color: "white",
-      backgroundAttachment: "fixed",
+      // backgroundAttachment: "fixed",
     },
   }),
 };

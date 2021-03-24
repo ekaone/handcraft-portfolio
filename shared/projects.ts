@@ -22,8 +22,8 @@ const projects = [
     repo: "https://github.com/ekaone/hooks-async",
     demo: "https://hooks-async.vercel.app/",
     tags: [
-      { id: 1, name: "Next.js", color: "purple" },
-      { id: 2, name: "Chakra UI", color: "green" },
+      { id: 1, name: "Snowpack", color: "purple" },
+      { id: 2, name: "ESM", color: "green" },
       { id: 3, name: "State Management", color: "yellow" },
     ],
   },
